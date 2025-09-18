@@ -170,10 +170,12 @@
   "peerDependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-native": "^0.81.4",
     "vite": "^5.1.0 || ^6.2.1"
   },
   "dependencies": {
     "@google/model-viewer": "^4.0.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@xstate/fsm": "2.0.0",
     "@xstate/react": "3.2.1",
     "graphql": "^16.10.0",

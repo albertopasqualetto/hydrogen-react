@@ -33,7 +33,8 @@ export function useCartFetch() {
       }
 
       // Find Shopify cookies
-      const cookieData = getShopifyCookies(document.cookie);
+      // const cookieData = getShopifyCookies(document.cookie);
+      const cookieData = getShopifyCookies('');
       headers[SHOPIFY_STOREFRONT_Y_HEADER] = cookieData[SHOPIFY_Y];
       headers[SHOPIFY_STOREFRONT_S_HEADER] = cookieData[SHOPIFY_S];
 
